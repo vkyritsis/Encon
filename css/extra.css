@@ -1,0 +1,20 @@
+
+.col-md-2{
+    background-color:#fffff;
+    color:#96c93d;
+     cursor:pointer;
+}
+.col-md-2:active,
+.col-md-2:focus,
+.col-md-2:hover{
+    background-color:#96c93d;
+    color:white;
+   
+}
+.row.text-center.porfolioSection{
+    border-top: 1px solid #96c93d;
+    border-bottom: 1px solid #96c93d;
+}
+.porfolioSection .col-md-2{
+    padding:10px;
+}
