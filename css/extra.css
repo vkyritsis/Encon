@@ -4,12 +4,19 @@
     color:#96c93d;
      cursor:pointer;
 }
-.col-md-2:active,
-.col-md-2:focus,
-.col-md-2:hover{
+.col-md-2.active,
+.col-md-2.active:active,
+.col-md-2.active:focus,
+.col-md-2.active:hover
+{
     background-color:#96c93d;
     color:white;
    
+}
+.col-md-2:active,
+.col-md-2:focus,
+.col-md-2:hover{
+    color:#6b9128;
 }
 .row.text-center.porfolioSection{
     border-top: 1px solid #96c93d;
