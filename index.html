@@ -166,30 +166,30 @@
     <section id="portfolio" class="portfolio">
         <div class="container">
             <div class="row text-center porfolioSection">  
-                <div class="col-md-2 col-md-offset-1 active" onclick="activeButton(this)">
-                     <h4>
+                <div class="col-md-2 col-md-offset-1 active" onclick="activeButton(this)" id="general">
+                     <h5>
                                    ΓΕΝΙΚΑ
-                                </h4>
+                                </h5>
                 </div>
-                <div class="col-md-2" onclick="activeButton(this)">
-                <h4>
+                <div class="col-md-2" onclick="activeButton(this)" id="environment">
+                <h5>
                                     ΠΕΡΙΒΑΛΛΟΝΤΙΚΕΣ
-                                </h4>
+                                </h5>
                 </div>
-                <div class="col-md-2" onclick="activeButton(this)">
-                <h4>
+                <div class="col-md-2" onclick="activeButton(this)" id="place">
+                <h5>
                                    ΧΩΡΟΤΑΞΙΚΕΣ
-                                </h4>
+                                </h5>
                 </div>
-                <div class="col-md-2" onclick="activeButton(this)">
-                <h4>
+                <div class="col-md-2" onclick="activeButton(this)" id="develop">
+                <h5>
                                     ΑΝΑΠΤΥΞΙΑΚΕΣ
-                                </h4>
+                                </h5>
                 </div>
-                <div class="col-md-2" onclick="activeButton(this)">
-                <h4>
+                <div class="col-md-2" onclick="activeButton(this)" id="garbage">
+                <h5>
                                    ΑΠΟΒΛΗΤΩΝ
-                                </h4>
+                                </h5>
                 
                
                 <!-- /.col-lg-10 -->
@@ -200,24 +200,27 @@
     </section>
 
     <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
+    <aside class="call-to-action bg-primary portfolioDetailsContainer container">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
+                <div class="col-lg-12 text-left" id="portfolioDetails">
                    Το μελετητικό γραφείο ENCON Σύμβουλοι & Μηχανικοί Περιβάλλοντος (Δ. ΜΠΑΜΠΟΣ & ΣΥΝΕΡΓΑΤΕΣ Ε.Ε.) έχει έδρα την Αθήνα και στελεχώνεται από επιστήμονες με σημαντική μελετητική εμπειρία. Πρόκειται για ένα γραφείο συμβούλων & μηχανικών το οποίο ειδικεύεται σε μελέτες & έργα σχετικά με την προστασία του περιβάλλοντος. Η εταιρία είναι μέλος του Τεχνικού Επιμελητηρίου Ελλάδος (Α.Μ. ΤΕΕ 6065), ενώ είναι εγγεγραμμένη στο Μητρώο Εταιρειών Μελετών του ΥΠΕΧΩΔΕ (Α.Μ. 698) και διαθέτει πτυχίο στις κάτωθι κατηγορίες μελετών:Σκοπός του γραφείου είναι η παροχή υψηλού επιπέδου υπηρεσιών στον τομέα της προστασίας & διαχείρισης του περιβάλλοντος, δίνοντας ολοκληρωμένες λύσεις σε θέματα διαχείρισης στερεών & υγρών αποβλήτων, καταρτίζοντας σχέδια προστασίας περιοχών και εφαρμόζοντας συστήματα περιβαλλοντικής διαχείρισης, για δημόσιους & ιδιωτικούς φορείς.
 
 Βασική φιλοσοφία μας είναι η ολοκληρωμένη αντιμετώπιση των περιβαλλοντικών – χωροταξικών ζητημάτων, μέσω της πολύπλευρης επιστημονικής θεώρησής τους από ένα εξειδικευμένο και αποτελεσματικό σχήμα. Η στελέχωση της εταιρείας έγινε από επιστήμονες διαφόρων ειδικοτήτων (περιβαλλοντολόγος, μηχανικός περιβάλλοντος, πολιτικός μηχανικός, χημικός μηχανικός, γεωγράφος) ώστε να εξασφαλίζεται η διεπιστημονική προσέγγιση που απαιτείται στις περιβαλλοντικές & χωροταξικές μελέτες.
                 </div>
             </div>
         </div>
+         <!-- Modal to show enlarged image -->
+        <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> <div class="modal-dialog"> <div class="modal-content"> <div class="modal-header"> <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button> <h4 class="modal-title" id="myModalLabel">Image preview</h4> </div> <div class="modal-body"> <img src="" id="imagepreview" style="width:100%; height: 100%;" > </div> <div class="modal-footer">  </div> </div> </div></div>
     </aside>
 
     <!-- Map -->
     <section id="contact" class="map">
-        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+λεωφορος+Ποσειδωνος,+   Παλαιο+Φάληρο,+Αττικη&amp;aq=0&amp;oq=twitter&amp;sll=23.630027531250008,-37.94575193877377&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+λεωφορος+Ποσειδωνος,+   Παλαιο+Φάληρο,+Αττικη,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
         <br />
+        
         <small>
-            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
+            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+λεωφορος+Ποσειδωνος,+   Παλαιο+Φάληρο,+Αττικη&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+λεωφορος+Ποσειδωνος,+   Παλαιο+Φάληρο,+Αττικη&amp;t=m&amp;z=15&amp;iwloc=A"></a>
         </small>
         </iframe>
     </section>

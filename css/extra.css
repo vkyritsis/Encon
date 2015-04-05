@@ -18,10 +18,35 @@
 .col-md-2:hover{
     color:#6b9128;
 }
+.portfolio{
+    padding:20px 0 0 0;
+}
 .row.text-center.porfolioSection{
     border-top: 1px solid #96c93d;
-    border-bottom: 1px solid #96c93d;
+    border-bottom: 1px solid #96c93d; 
+}
+
+.portfolioDetailsContainer{
+    background-color: white;
+    color:black;
+    padding: 20px 0 20px 0;
 }
 .porfolioSection .col-md-2{
     padding:10px;
+}
+#portfolioDetails{
+    border: 1px solid #96c93d;
+    word-wrap: break-word;
+}
+.portfolioDetailsPlaceImage{
+    background: url(../img/map.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100px;
+    height: 200px;
+}
+.thumbnail{
+    cursor: pointer;
 }
