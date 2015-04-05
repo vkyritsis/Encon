@@ -1,4 +1,6 @@
-
+.bg-primary{
+    background-color:  #45637e;
+}
 .col-md-2{
     background-color:#fffff;
     color:#96c93d;
@@ -21,6 +23,9 @@
 .portfolio{
     padding:20px 0 0 0;
 }
+.portfolio h2{
+    color:#45637e;  
+}
 .row.text-center.porfolioSection{
     border-top: 1px solid #96c93d;
     border-bottom: 1px solid #96c93d; 
@@ -35,7 +40,7 @@
     padding:10px;
 }
 #portfolioDetails{
-    border: 1px solid #96c93d;
+    line-height: 35px;
     word-wrap: break-word;
 }
 .portfolioDetailsPlaceImage{
