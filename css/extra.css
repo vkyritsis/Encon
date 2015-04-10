@@ -1,9 +1,60 @@
+.navbar{
+    background-color:#ffffff;    
+    
+}
+.desktopNav li{
+  transform: skewX(-27deg);
+  -webkit-transform: skewX(-27deg);
+  -moz-transform: skewX(-27deg);    
+  border-right:1px solid #E6E6E6;
+}
+.desktopNav a{
+  transform: skewX(27deg);
+  -webkit-transform: skewX(27deg);
+  -moz-transform: skewX(27deg); 
+  color:rgba(57, 82, 104, 0.55)!important;
+}
+
+.desktopNav a:hover{
+    color:#45637e!important;
+
+}
+/* --- box --- */
+
+.box {
+	background: #f8f8f8;
+}
+.box-gray  {	
+	padding: 10px 10px 20px;
+}
+.box-bottom{
+    background-color:#45637e;
+    color:white;
+}
+.box-gray  h4,.box-gray  i {
+	margin-bottom: 20px;
+}
+/* --- box --- */
 .bg-primary{
-    background-color:  #45637e;
+    background-color:#45637e;
+}
+.bg-primary .text-primary{
+    color:#468966;
+}
+.bg-primary .text-muted{
+    color:white;
+        
+}
+.serviceDetailsContainer{
+    display:none;
+    width:100%;
+    background-color: whitesmoke;
+    color:gray;
+    line-height: 
 }
 .col-md-2{
     background-color:#fffff;
-    color:#96c93d;
+    color:rgba(57, 82, 104, 0.55);
      cursor:pointer;
 }
 .col-md-2.active,
@@ -11,24 +62,22 @@
 .col-md-2.active:focus,
 .col-md-2.active:hover
 {
-    background-color:#96c93d;
+    background-color:#45637e;
     color:white;
    
 }
 .col-md-2:active,
 .col-md-2:focus,
 .col-md-2:hover{
-    color:#6b9128;
+    color:#45637e;
 }
-.portfolio{
-    padding:20px 0 0 0;
-}
+
 .portfolio h2{
     color:#45637e;  
 }
 .row.text-center.porfolioSection{
-    border-top: 1px solid #96c93d;
-    border-bottom: 1px solid #96c93d; 
+    border-top: 1px solid rgba(57, 82, 104, 0.55);
+    border-bottom: 1px solid rgba(57, 82, 104, 0.55); 
 }
 
 .portfolioDetailsContainer{
@@ -54,4 +103,26 @@
 }
 .thumbnail{
     cursor: pointer;
+}
+
+/*extra media query for tablet/mobile device*/
+@media screen and (max-width: 900px) {
+  .desktopNav li{
+     border-right: 0px;
+    transform: skewX(0deg);
+    -webkit-transform: skewX(0deg);
+    -moz-transform: skewX(0deg);    
+    }
+    .desktopNav a{
+      transform: skewX(0deg);
+      -webkit-transform: skewX(0deg);
+      -moz-transform: skewX(0deg);       
+    }
+    .box {
+		border-bottom:1px solid #e9e9e9;	
+        width:100%;
+	}
+    .mobileClass{
+        width:100%;
+    }
 }
